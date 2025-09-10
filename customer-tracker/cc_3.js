@@ -30,4 +30,11 @@ customers.push(
 //using shift to remove the first customer
 customers.shift()
 
+//updating an existing customer email
+customers[1].email= "Amy2@gmail.com"
+
+//adding a new purchase to a customer's purchase
+customers[0].purchases.push("Soda")
+
 //using .forEach() to loop though customers
+
