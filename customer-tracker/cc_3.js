@@ -17,3 +17,10 @@ let customers = [
 }
 
 ]
+customers.push(
+    {
+        name: "Ben",
+        email: "ben@gmail.com",
+        purchases: ["Loaded Fries", "Sweet Tea"]
+    }
+)
