@@ -1,3 +1,4 @@
+//creating the array of customers
 let customers = [
 {
     name:"Sally",
@@ -17,6 +18,7 @@ let customers = [
 }
 
 ]
+// using push to add a 4th customer
 customers.push(
     {
         name: "Ben",
@@ -24,4 +26,8 @@ customers.push(
         purchases: ["Loaded Fries", "Sweet Tea"]
     }
 )
+
+//using shift to remove the first customer
 customers.shift()
+
+//using .forEach() to loop though customers
