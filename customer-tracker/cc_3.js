@@ -24,3 +24,4 @@ customers.push(
         purchases: ["Loaded Fries", "Sweet Tea"]
     }
 )
+customers.shift()
