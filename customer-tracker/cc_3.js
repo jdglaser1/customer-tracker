@@ -37,4 +37,8 @@ customers[1].email= "Amy2@gmail.com"
 customers[0].purchases.push("Soda")
 
 //using .forEach() to loop though customers
-
+customers.forEach(obj => console.log(` 
+        name: ${obj.name}
+        email: ${obj.email}
+        purchases: ${obj.purchases.length}
+          `))
